@@ -1,0 +1,10 @@
+﻿  Compiling CUDA source file VFlocking_kernel.cu...
+  
+  C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\5_Simulations\VFlockingD3D10>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_37,code=\"sm_37,compute_37\" -gencode=arch=compute_50,code=\"sm_50,compute_50\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_60,code=\"sm_60,compute_60\" -gencode=arch=compute_61,code=\"sm_61,compute_61\" -gencode=arch=compute_70,code=\"sm_70,compute_70\" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.13.26128\bin\HostX86\x64" -x cu  -I./ -I../../common/inc -I./ -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\/include" -I../../common/inc -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler "/wd 4819" -g   -DWIN32 -DWIN32 -D_MBCS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64/Debug/vc141.pdb /FS /Zi /RTC1 /MTd " -o x64/Debug/VFlocking_kernel.cu.obj "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\5_Simulations\VFlockingD3D10\VFlocking_kernel.cu" 
+  VFlocking_kernel.cu
+  VFlockingD3D10.cpp
+c:\programdata\nvidia corporation\cuda samples\v10.1\5_simulations\vflockingd3d10\vflockingd3d10.cpp(290): warning C4101: 'firstGraphicsName': unreferenced local variable
+  rendercheck_d3d10.cpp
+  Generating Code...
+     Creating library ../../bin/win64/Debug/VFlockingD3D10.lib and object ../../bin/win64/Debug/VFlockingD3D10.exp
+  VFlockingD3D10_vs2017.vcxproj -> C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\5_Simulations\VFlockingD3D10\../../bin/win64/Debug/VFlockingD3D10.exe
